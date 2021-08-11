@@ -54,7 +54,7 @@ public:
 
 //扩展操作
 
-DecoratorStream: public Stream{
+class DecoratorStream: public Stream{
 protected:
     Stream* stream;//...
     
